@@ -9,8 +9,7 @@ import os
 
 app = FastAPI()
 
-# model_path = "saved_models/pneumonia.keras"
-model_path = "saved_models/pn_2.keras"
+model_path = "saved_models/pneumonia.keras"
 
 if os.path.exists(model_path):
     print(f"Model found at {model_path}")
